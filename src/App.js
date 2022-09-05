@@ -42,7 +42,7 @@ function App() {
                     </Main>
                 </div>
             </StoreContext.Provider>
-            <ReactQueryDevtools initialIsOpen />
+            <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>
     );
 }
